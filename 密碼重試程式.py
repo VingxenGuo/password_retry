@@ -12,3 +12,5 @@ while x > 0:
     else :
         x = x - 1
         print('輸入錯誤!剩下', x, '次機會')
+if x == 0:
+    print('請稍後再試')
